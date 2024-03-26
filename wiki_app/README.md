@@ -1,5 +1,14 @@
 # Setup
 
+## Pre-setup
+
+Install SQLite 3 and add it to the PATH.
+
+```bash
+rails new wiki_app
+npm install --global yarn --force
+```
+
 ## Start the Server
 
 ```bash

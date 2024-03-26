@@ -1,12 +1,12 @@
 # Setup
 
-Start the server
+## Start the Server
 
 ```bash
 rails s
 ```
 
-Setup
+## Setup
 
 ```bash
 rails g controller welcome index
@@ -16,13 +16,13 @@ rails g migration AddTitleToWikiPost tilte:string
 rake db:migrate
 ```
 
-Access Rails console
+## Access Rails Console
 
 ```bash
 rails c
 ```
 
-Rails console
+## Rails Console
 
 ```bash
 post = WikiPost.create!(title: 'My first post!')

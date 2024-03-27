@@ -23,6 +23,7 @@ rails g scaffold WikiPost
 rails db:migrate
 rails g migration AddTitleToWikiPost tilte:string
 rake db:migrate
+rails db:seed
 ```
 
 ## Access Rails Console

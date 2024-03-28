@@ -1,7 +1,12 @@
 Rails.application.routes.draw do
-  get 'wiki_posts/example'
   resources :wiki_posts
-  get 'welcome/index'
+  namespace :wiki_posts do
+    get 'example'
+  end
+  namespace :welcome do
+    get 'index'
+    get 'about'
+  end
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
   # Reveal health status on /up that returns 200 if the app boots with no exceptions, otherwise 500.

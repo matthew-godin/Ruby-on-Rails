@@ -24,6 +24,9 @@ rails db:migrate
 rails g migration AddTitleToWikiPost tilte:string
 rake db:migrate
 rails db:seed
+rails g migration AddDescriptionToWikiPost description:string
+rails g migration AddAuthorToWikiPost author:string
+rails db:migrate
 ```
 
 ## Access Rails Console

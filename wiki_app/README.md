@@ -29,6 +29,8 @@ rails g migration AddAuthorToWikiPost author:string
 rails db:migrate
 rails active_storage:install
 rails db:migrate
+rails turbo:install
+rails importmaps:install
 ```
 
 ## Access Rails Console

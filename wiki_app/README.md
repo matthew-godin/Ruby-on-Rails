@@ -27,6 +27,8 @@ rails db:seed
 rails g migration AddDescriptionToWikiPost description:string
 rails g migration AddAuthorToWikiPost author:string
 rails db:migrate
+rails active_storage:install
+rails db:migrate
 ```
 
 ## Access Rails Console
